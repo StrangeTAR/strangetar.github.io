@@ -348,7 +348,7 @@ header .header-games {
 }
 .games-links .games-link {
   float: left;
-  width: 460px;
+  width: 430px;
   background-color: gray;
   height: 300px;
   color: red;
@@ -356,17 +356,30 @@ header .header-games {
   margin-bottom: 20px;
   text-align: center;
   padding-top: 0;
+  border: 5px solid red;
+}
+.games-links .games-link:hover {
+  background-color: red;
+  border: 5px solid yellow;
+
+}
+.games-links .games-link p:hover {
+  color: yellow;
 }
 .games-links .games-link p {
+  padding-top: 150px;
   font-weight: 600;
   font-size: 24px;
   color: red;
+  line-height: 25px;
+  padding: 150px 0px 150px 0px;
 }
 .games-links h2{
-  margin-top: 20px;
-  line-height: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 180px;
   color: brown;
-  font-size: 50px;
+  font-size: 150px;
   text-align: center;
 }
 
