@@ -332,11 +332,48 @@ header .header-games {
     background-color: #2d2b2d;
   }
 }
+
+/*GAMES*/
+
+.games-main {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+}
+
+.games-links {
+  overflow: hidden;
+}
+.games-links .games-link {
+  float: left;
+  width: 460px;
+  background-color: gray;
+  height: 300px;
+  color: red;
+  margin: 30px 20px 0;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 0;
+}
+.games-links .games-link p {
+  font-weight: 600;
+  font-size: 24px;
+  color: red;
+}
+.games-links h2{
+  margin-top: 20px;
+  line-height: 80px;
+  color: brown;
+  font-size: 50px;
+  text-align: center;
+}
+
 /* Footer  #2d2b2d */
 
 footer {
   width: calc(100% - 120px);
-  margin-top: 120px;
   padding: 60px 60px;
   background-color: #111;
   overflow: hidden;
