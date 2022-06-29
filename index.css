@@ -334,13 +334,13 @@ header .header-games {
 }
 
 /*GAMES*/
-
 .games-main {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: table;
+  margin-top: 80px;
 }
 
 .games-links {
@@ -382,7 +382,55 @@ header .header-games {
   font-size: 150px;
   text-align: center;
 }
+@media only screen and (min-width:1000px) {
+  .games-main {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+  }
 
+  .games-links {
+    overflow: hidden;
+  }
+  .games-links .games-link {
+    float: left;
+    width: 430px;
+    background-color: gray;
+    height: 300px;
+    color: red;
+    margin: 30px 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 0;
+    border: 5px solid red;
+  }
+  .games-links .games-link:hover {
+    background-color: red;
+    border: 5px solid yellow;
+
+  }
+  .games-links .games-link p:hover {
+    color: yellow;
+  }
+  .games-links .games-link p {
+    padding-top: 150px;
+    font-weight: 600;
+    font-size: 24px;
+    color: red;
+    line-height: 25px;
+    padding: 150px 0px 150px 0px;
+  }
+  .games-links h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 180px;
+    color: brown;
+    font-size: 150px;
+    text-align: center;
+  }
+}
 /* Footer  #2d2b2d */
 
 footer {
